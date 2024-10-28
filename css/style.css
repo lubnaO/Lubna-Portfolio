@@ -27,7 +27,7 @@ body{
 .navbar .navbar-brand{
     color:var(--main-color);
     font-family: "Playfair Display", serif;
-    font-size: 30px;
+    font-size: 23px;
 
 }
 .navbar .navbar-nav .nav-item a{
@@ -38,7 +38,7 @@ body{
 
 .title-sections h4{
 font-weight: 400;
-font-size: 40px;
+font-size: 25px;
 color:var(--main-color);
 }
 .title-sections p{
@@ -70,4 +70,15 @@ color: black;
     padding: 10px 10px;
     font-weight: 500;
     border-radius: 5px;
+}
+
+.contact p{
+    color: rgb(105, 104, 104);
+}
+.contact .call{
+    color: #b24592;
+    font-size: 22px;
+}
+.contact .footer-details{
+    color: rgb(105, 104, 104);
 }
