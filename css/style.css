@@ -46,7 +46,7 @@ color:var(--main-color);
     font-size: 30px;
 }
 .card{
-    box-shadow: 0px 0px 12px 1px #f0f0f0;
+    box-shadow:10px 20px 12px 1px #f4f4f4;
     border: none;
     height: 100%;
 }
@@ -65,7 +65,8 @@ color: black;
     cursor: pointer;
 }
 .button-review{
-    background-image: linear-gradient(-20deg, #ddd6f3 0%, #faaca8 100%, #faaca8 100%);
+    background-color: #de65ba;
+    /* background-image: linear-gradient(-20deg, #ddd6f3 0%, #faaca8 100%, #faaca8 100%); */
     color: white;
     padding: 10px 10px;
     font-weight: 500;
