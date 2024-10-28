@@ -39,7 +39,7 @@ body{
 .title-sections h4{
 font-weight: 400;
 font-size: 40px;
-text-transform: uppercase;
+color:var(--main-color);
 }
 .title-sections p{
     font-weight: 400;
@@ -48,6 +48,7 @@ text-transform: uppercase;
 .card{
     box-shadow: 0px 0px 12px 1px #f0f0f0;
     border: none;
+    height: 100%;
 }
 .card-title{
  color: rgb(105, 104, 104);
@@ -55,9 +56,16 @@ text-transform: uppercase;
 .card-text{
 color: black;
 }
+.liveAndGithub{
+    display: flex;
+}
+.liveAndGithub .github{
+    font-size: 45px;
+    color: #b24592;
+    cursor: pointer;
+}
 .button-review{
-    background-image: linear-gradient(to left, #BDBBBE 0%, #9D9EA3 100%), radial-gradient(88% 271%, rgba(255, 255, 255, 0.25) 0%, rgba(254, 254, 254, 0.25) 1%, rgba(0, 0, 0, 0.25) 100%), radial-gradient(50% 100%, rgba(255, 255, 255, 0.30) 0%, rgba(0, 0, 0, 0.30) 100%);
-    background-blend-mode: normal, lighten, soft-light;
+    background-image: linear-gradient(-20deg, #ddd6f3 0%, #faaca8 100%, #faaca8 100%);
     color: white;
     padding: 10px 10px;
     font-weight: 500;
