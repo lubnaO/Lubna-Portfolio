@@ -1,0 +1,65 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+/**Global variable**/
+
+* {
+    scroll-behavior: smooth;
+
+}
+body{
+    background-color: #fcfaf6;
+
+}
+:root{
+    --main-color:#b24592; 
+}
+
+
+.title-sections h1{
+    font-family: "Caveat", cursive;
+        color: var(--main-color);
+       
+}
+
+/**home section start**/
+
+.navbar .navbar-brand{
+    color:var(--main-color);
+    font-family: "Playfair Display", serif;
+    font-size: 30px;
+
+}
+.navbar .navbar-nav .nav-item a{
+    color: var(--main-color);
+    font-size: 21px;
+    font-family: "Playfair Display", serif;
+}
+
+.title-sections h4{
+font-weight: 400;
+font-size: 40px;
+text-transform: uppercase;
+}
+.title-sections p{
+    font-weight: 400;
+    font-size: 30px;
+}
+.card{
+    box-shadow: 0px 0px 12px 1px #f0f0f0;
+    border: none;
+}
+.card-title{
+ color: rgb(105, 104, 104);
+}
+.card-text{
+color: black;
+}
+.button-review{
+    background-image: linear-gradient(to left, #BDBBBE 0%, #9D9EA3 100%), radial-gradient(88% 271%, rgba(255, 255, 255, 0.25) 0%, rgba(254, 254, 254, 0.25) 1%, rgba(0, 0, 0, 0.25) 100%), radial-gradient(50% 100%, rgba(255, 255, 255, 0.30) 0%, rgba(0, 0, 0, 0.30) 100%);
+    background-blend-mode: normal, lighten, soft-light;
+    color: white;
+    padding: 10px 10px;
+    font-weight: 500;
+    border-radius: 5px;
+}
